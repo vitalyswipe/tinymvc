@@ -1,0 +1,288 @@
+﻿/*
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 3.0 License
+
+Name       : Accumen
+Description: A two-column, fixed-width design with dark color scheme.
+Version    : 1.0
+Released   : 20120712
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: underline;
+	color: #353535;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+body {
+	line-height: 1.75em;
+	background: #fff url('../images/00bd.png');
+	
+	font-size: 11.5pt;
+	color: #353535;
+}
+
+body,input {
+	font-family: Kreon, serif;
+}
+
+br.clearfix {
+	clear: both;
+}
+
+h1,h2,h3,h4 {
+	text-transform: uppercase;
+	font-weight: normal;
+	font-family: "Open Sans", sans-serif;
+	color: #353535;
+	margin-bottom: 1em;
+}
+
+h1 {
+	font-size: 1.75em;
+}
+
+h2  {
+	font-size: 1.5em;
+}
+
+h3 {
+	font-size: 1.25em;
+}
+
+h4 {
+	font-size: 1em;
+}
+
+img.alignleft {
+	float: left;
+	margin: 5px 30px 20px 0;
+}
+
+img.aligntop {
+	margin: 5px 0 20px 0;
+}
+
+p {
+	margin-bottom: 1.5em;
+}
+
+ul {
+	margin-bottom: 1.5em;
+}
+
+ul h4 {
+	margin-bottom: 0.35em;
+}
+
+a {
+	color: #353535;
+}
+
+#content {
+	padding: 0 0 0 10px;
+	width: 615px;
+	margin: 0 0 0 285px;
+}
+
+#footer {
+	padding: 20px 0 20px 0;
+	text-align: center;
+	text-shadow: 1px 1px 0px rgba(255,255,255,0.7);
+	color: #353535;
+}
+
+#footer a {
+	color: #353535;
+}
+
+#header {
+	height: 130px;
+	padding: 40px;
+	position: relative;
+	background: url(../images/cap.jpg) no-repeat 85px 30px;
+}
+
+#logo {
+	position: absolute;
+	top: 40px;
+	left: 20px;
+	height: 130px;
+	line-height: 130px;
+	
+}
+
+#logo a {
+	color: #ffffff;
+	text-shadow: black 0px 0px 7px;
+	text-decoration: none;
+	font-family: "Open Sans", sans-serif;
+	font-size: 35px;
+}
+
+
+#logo img {
+	margin-left: 70px;
+	vertical-align: middle;
+}
+
+#menu {
+	line-height: 57px;
+	position: absolute;
+	right: 40px;
+	top: 76px;
+	height: 57px;
+	font-family: "Open Sans", sans-serif;
+}
+
+#menu a {
+	text-transform: uppercase;
+	text-decoration: underline;
+	color: #1C1C1C;
+	font-size: 1.2em;
+}
+
+#menu a:hover {
+	text-decoration: none;
+}
+
+#menu ul {
+	padding: 0 20px 0 20px;
+	list-style: none;
+}
+
+#menu ul li {
+	display: inline;
+	padding: 10px 10px 10px 10px;
+	margin: 0 8px 0 8px;
+}
+
+#page {
+	margin: 0;
+	position: relative;
+	width: 900px;
+	padding: 20px 40px 0 40px;
+}
+
+#page .section-list {
+	padding-left: 0;
+	list-style: none;
+}
+
+#page .section-list li {
+	padding: 25px 0 25px 0;
+	clear: both;
+}
+
+#sidebar ul {
+	list-style: none;
+}
+
+#sidebar ul li {
+	border-top: solid 1px #e3e3e3;
+	padding: 10px 0 10px 0;
+}
+
+#sidebar ul li.first {
+	padding-top: 0;
+	border-top: 0;
+}
+
+#page-bottom {
+	padding: 40px 40px 0 40px;
+	color: #353535;
+	background: #f3f3f3;
+	position: relative;
+	width: 898px;
+	border-top: solid 1px #e3e3e3;
+	box-shadow: inset 0px 0px 0px 1px #fff;
+	text-shadow: 1px 1px 0px rgba(255,255,255,0.9);
+}
+
+#page-bottom a {
+	color: #1B1A18;
+}
+
+#page-bottom h2, #page-bottom h3, #page-bottom h4 {
+	color: #353535;
+}
+
+#page-bottom ul {
+	list-style: none;
+}
+
+#page-bottom ul li {
+	border-top: solid 1px #e3e3e3;
+	padding: 10px 0 10px 0;
+}
+
+#page-bottom ul li.first {
+	border-top: 0;
+	padding-top: 0;
+}
+
+#page-bottom-content {
+	width: 615px;
+	margin: 0 0 0 290px;
+}
+
+#page-bottom-sidebar {
+	float: left;
+	width: 250px;
+}
+
+#sidebar {
+	position: relative;
+	left: -20px;
+	top: -20px;
+	float: left;
+	width: 240px;
+	background: #f3f3f3;
+	padding: 20px;
+	border: solid 1px #e3e3e3;
+	margin: 0 10px 0 0;
+	text-shadow: 1px 1px 0px rgba(255,255,255,1);
+	box-shadow: inset 0px 0px 0px 1px #fff;
+}
+
+#wrapper {
+	width: 978px;
+	position: relative;
+	background: #FFF;
+	margin: 0 auto 0 auto;
+	box-shadow: 10px 100px 150px 0px rgba(0,0,0,0.15);
+	border: solid 1px #f3f3f3;
+	border-top: 0;
+}
+
+.box img {
+	margin: 0px 20px 0px 0px;
+	border: solid 1px #e3e3e3;
+}
+
+.box p {
+	margin-bottom: 0em;
+}
+
+.box ul{
+	margin-bottom: 0em;
+	list-style: square inside;
+}
+
+.box table {
+	border-collapse:collapse;
+}
+
+.box table, th, td {
+	border: 1px solid #e3e3e3;
+	padding: 5px;
+}
